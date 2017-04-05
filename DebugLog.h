@@ -2,6 +2,7 @@
 #define NpDebug_h__
 
 #include <fstream>
+#include <time.h>
 
 #define dwrite_log(...) dwrite_log_imp(__FUNCTION__, __LINE__,  __VA_ARGS__)
 
